@@ -131,7 +131,7 @@ const Messages = ({ user }) => {
     <MessagesProvider value={{ conversations }}>
       <Layout
         user={{ ...user, logo: userInfo?.logo, name: userInfo?.username }}
-        title=""
+        title="Messages"
       >
         <div className="w-[103%] h-[calc(100vh-140px)] overflow-clip flex flex-row mr-[-19px]">
           {
